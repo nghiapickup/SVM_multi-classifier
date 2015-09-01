@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1436519184 source:d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\main.cpp
+	"svm_scale.h"
+	"svm_train.h"
+	"svm_predict.h"
+	"svm_crossval.h"
+	"sstream"
+	"vector"
+	"string"
+
+1436519295 d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\include\svm_scale.h
+	<iostream>
+	<fstream>
+	<float.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<string>
+
+1436519307 d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\include\svm_train.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<errno.h>
+	"svm.h"
+
+1436712200 d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\include\svm.h
+
+1436519286 d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\include\svm_predict.h
+	<stdio.h>
+	<ctype.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1436519274 d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\include\svm_crossval.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<errno.h>
+	"svm.h"
+
+1436712138 source:d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\src\svm.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<stdarg.h>
+	<limits.h>
+	<locale.h>
+	<time.h>
+	<queue>
+	"svm.h"
+
+1436521612 source:d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\src\svm_crossval.cpp
+	"svm_crossval.h"
+
+1436519233 source:d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\src\svm_predict.cpp
+	"svm_predict.h"
+	"svm.h"
+
+1436519242 source:d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\src\svm_scale.cpp
+	"svm_scale.h"
+
+1436519252 source:d:\2.uit\(1)nckh\4.code\libsvm\code\classifier\src\svm_train.cpp
+	"svm_train.h"
+

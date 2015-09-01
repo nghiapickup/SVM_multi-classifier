@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Classifier" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Script file="lib_finder.script" />
+			<Target title="Debug">
+				<Option output="bin/Debug/Classifier" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Classifier" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/svm.h" />
+		<Unit filename="include/svm_crossval.h" />
+		<Unit filename="include/svm_predict.h" />
+		<Unit filename="include/svm_scale.h" />
+		<Unit filename="include/svm_train.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/svm.cpp" />
+		<Unit filename="src/svm_crossval.cpp" />
+		<Unit filename="src/svm_predict.cpp" />
+		<Unit filename="src/svm_scale.cpp" />
+		<Unit filename="src/svm_train.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
